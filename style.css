@@ -13,8 +13,8 @@
 }
 
 :root{
-    --whitetype: #ff7480;
-    --blacktype: #9f6ea3;
+    --whitetype: rgb(0, 230, 230);
+    --blacktype: rgb(0, 230, 230);
     --lightblack: #515C6F;
     --white: #ffffff;
     --darkwhite: #cecaca;
