@@ -22,11 +22,24 @@
     --lightbshadow: rgba(0, 0, 0, 0.364);
 }
 
-body{
+/*body{
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(1800deg, black, white);
+}*/
+body {
+  background: linear-gradient(180deg,rgba(8,135,152,.9),#000814 32%);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50%;
+  overflow-x: hidden;
 }
 
 .player {
