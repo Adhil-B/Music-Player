@@ -48,7 +48,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(218, 15, 18), rgb(203, 203, 216));
+    /*background: linear-gradient(45deg, rgb(218, 15, 18), rgb(203, 203, 216));*/
 }
 
 .wrapper{
