@@ -299,9 +299,9 @@ input[type="range"]::-webkit-slider-thumb {
 
 .music-list{
     position: absolute;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(25px);
     color: white;
-    background-color: rgba(66, 66, 66, 0.3);
+    background-color: rgba(47, 47, 47, 0.38);
     width: 100%;
     left: 0;
     bottom: -55%;
