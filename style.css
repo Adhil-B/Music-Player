@@ -106,8 +106,9 @@ body {
     height: 235px;
     margin: auto;
     overflow: hidden;
-    margin-top: 15px;
-    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2%;
     -moz-box-shadow: 0px 6px 12px var(--lightbshadow);
     -webkit-box-shadow: 0px 6px 12px var(--lightbshadow);
     box-shadow: 0px 6px 12px var(--lightbshadow);
@@ -239,7 +240,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .controls{
-    margin: 10px 0 5px 0;
+    margin: 20px 0 5px 0;
 }
 
 .controls i{
