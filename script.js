@@ -191,7 +191,7 @@ for (let i = 0; i < allMusic.length; i++) {
   //let's pass the song name, artist from the array
   let liTag = `<li li-index="${i + 1}">
                 <div class="row">
-                  <span>${allMusic[i].name}</span>
+                  <span><b>${allMusic[i].name}</b></span>
                   <p>${allMusic[i].artist}</p>
                 </div>
                 <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
