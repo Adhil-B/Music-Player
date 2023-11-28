@@ -15,7 +15,7 @@
 :root{
     --whitetype: rgb(0, 230, 230);
     --blacktype: rgb(0, 230, 230);
-    --lightblack: #515C6F;
+    --lightblack: white;
     --white: #ffffff;
     --darkwhite: #cecaca;
     --pinkshadow: #ffcbdd;
