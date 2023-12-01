@@ -20,7 +20,6 @@ let wave = document.getElementById('wave');
 
  
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
-let isStart = true;
 isMusicPaused = true;
 
 window.addEventListener("load", ()=>{
@@ -41,7 +40,7 @@ function loadMusic(indexNumb){
 
 //play music function
 function playMusic(){
-  if  wrapper.classList.contains("initial");{
+  if (wrapper.classList.contains("initial")){
 	  moreMusicBtn.click();
   }
   wave.classList.remove('initial');
