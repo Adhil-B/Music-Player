@@ -238,9 +238,6 @@ function playingSong(){
 
     allLiTag[j].setAttribute("onclick", "clicked(this)");
   }
-  if isStart == true{
-	  moreMusicBtn.click();
-  }
 }
 
 //particular li clicked function
