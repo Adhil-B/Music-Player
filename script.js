@@ -40,7 +40,10 @@ function loadMusic(indexNumb){
 
 //play music function
 function playMusic(){
-  isStart = false;	
+  if isStart != false{
+	  moreMusicBtn.click();
+  }
+  isStart = false;
   wrapper.querySelector(".music-list ul").style.maxHeight="260px";
   musicList.style.top="";
   wrapper.classList.add("paused");
