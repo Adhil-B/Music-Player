@@ -27,6 +27,8 @@ window.addEventListener("load", ()=>{
   loadMusic(musicIndex);
   playingSong(); 
   musicList.classList.toggle("show");
+  wrapper.querySelector(".music-list ul").style.maxHeight="90%";
+  musicList.style.top="0px";
 });
 
 function loadMusic(indexNumb){
