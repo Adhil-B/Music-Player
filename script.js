@@ -18,9 +18,9 @@ let recent_volume = document.querySelector('#volume');
 let volume_show = document.querySelector('#volume_show');
 let wave = document.getElementById('wave');
 
-
-
+ 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
+isStart = true;
 isMusicPaused = true;
 
 window.addEventListener("load", ()=>{
@@ -37,6 +37,9 @@ function loadMusic(indexNumb){
 
 //play music function
 function playMusic(){
+  isStart = false;	
+  wrapper.querySelector(".music-list ul").style.maxHeight="260px";
+  musicList.style.top="";
   wrapper.classList.add("paused");
   playPauseBtn.querySelector("i").innerText = "pause";
   mainAudio.play();
@@ -233,6 +236,9 @@ function playingSong(){
     }
 
     allLiTag[j].setAttribute("onclick", "clicked(this)");
+  }
+  if isStart{
+	  moreMusicBtn.click();
   }
 }
 
