@@ -40,10 +40,10 @@ function loadMusic(indexNumb){
 
 //play music function
 function playMusic(){
-  if (wrapper.classList.contains("initial")){
+  if (musicList.classList.contains("initial")){
 	  moreMusicBtn.click();
   }
-  wave.classList.remove('initial');
+  musicList.classList.remove('initial');
   wrapper.querySelector(".music-list ul").style.maxHeight="260px";
   musicList.style.top="";
   wrapper.classList.add("paused");
