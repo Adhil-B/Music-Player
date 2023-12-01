@@ -26,6 +26,7 @@ isMusicPaused = true;
 window.addEventListener("load", ()=>{
   loadMusic(musicIndex);
   playingSong(); 
+  musicList.classList.toggle("show");
 });
 
 function loadMusic(indexNumb){
@@ -237,7 +238,7 @@ function playingSong(){
 
     allLiTag[j].setAttribute("onclick", "clicked(this)");
   }
-  if isStart{
+  if isStart == true{
 	  moreMusicBtn.click();
   }
 }
