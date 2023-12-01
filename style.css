@@ -54,14 +54,14 @@ body {
 .wrapper{
     color: white;
     width: 450px;
-    padding: 25px 30px;
+    padding: 15px 30px;
     overflow: hidden;
     position: relative;
     border-radius: 15px;
     background-color: rgba(66, 66, 66, 0.3);
 /*    background: var(--white);*/
     box-shadow: 0px 6px 15px var(--lightbshadow);
-    backdrop-filter: blur(16px);
+    /*backdrop-filter: blur(16px);*/
 }
 
 .wrapper i{
@@ -102,7 +102,7 @@ body {
 }
 
 .img-area{
-    width: 60%;
+    width: 235px;
     height: 235px;
     margin: auto;
     overflow: hidden;
