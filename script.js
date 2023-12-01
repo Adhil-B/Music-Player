@@ -29,6 +29,7 @@ window.addEventListener("load", ()=>{
   musicList.classList.toggle("show");
   wrapper.querySelector(".music-list ul").style.maxHeight="90%";
   musicList.style.top="0px";
+  musicList.classList.toggle("initial");
 });
 
 function loadMusic(indexNumb){
@@ -40,10 +41,10 @@ function loadMusic(indexNumb){
 
 //play music function
 function playMusic(){
-  if isStart != false{
+  if  wrapper.classList.contains("initial");{
 	  moreMusicBtn.click();
   }
-  isStart = false;
+  wave.classList.remove('initial');
   wrapper.querySelector(".music-list ul").style.maxHeight="260px";
   musicList.style.top="";
   wrapper.classList.add("paused");
