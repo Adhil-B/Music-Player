@@ -20,7 +20,7 @@ let wave = document.getElementById('wave');
 
  
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
-isStart = true;
+let isStart = true;
 isMusicPaused = true;
 
 window.addEventListener("load", ()=>{
