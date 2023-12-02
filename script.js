@@ -191,6 +191,7 @@ moreMusicBtn.addEventListener("click", ()=>{
   musicList.classList.toggle("show");
 });
 closemoreMusic.addEventListener("click", ()=>{
+  musicList.classList.remove('initial');
   moreMusicBtn.click();
 });
 
